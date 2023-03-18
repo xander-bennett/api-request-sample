@@ -37,6 +37,7 @@ You can then use the await keyword to wait for the Promise
 to resolve before continuing execution.
 
 Here's an example of an async function:
+*/
 
 async function myAsyncFunction() {
   const result = await myPromiseFunction();
@@ -54,7 +55,7 @@ function myPromiseFunction() {
 myAsyncFunction();
 
 
-
+/*
 In this example, myAsyncFunction is defined as an async function, 
 and it calls myPromiseFunction using the await keyword. 
 myPromiseFunction returns a Promise that resolves after 2 seconds, 
